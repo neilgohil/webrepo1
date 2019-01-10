@@ -1,0 +1,394 @@
+body{
+  font: 15px/1 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#808080;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#808080;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#262626;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:50px;
+  border-bottom:#262626 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:none;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#ffffff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+/* Showcase */
+#slideshow{
+  border: 0px solid grey;
+  min-height:500px;
+  background:url('../Assets/acrobat.jpg') no-repeat 0 -400px border-box;
+  background-size: cover;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+
+
+#slideshow .container{
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0px;
+  text-align: center;
+}
+
+#slideshow img{
+  background-image:url('../Assets/2009_reissue.jpg') no-repeat 0 -400px border-box;
+  background-position: center;
+  width: 100%;
+}
+#slideshow h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#slideshow p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#article1{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#article2{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+
+#headline1 .container p{
+  float:left;
+  font-family: Verdana: 1.5;
+
+}
+
+#headline2 .container p{
+  float:left;
+  font-family: Verdana: 1.5;
+
+}
+
+#logo .container{
+  width: auto;
+  height: 500px;
+}
+
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+#album-main{
+  max-width: 3000px;
+  margin: auto;
+  overflow: auto;
+}
+
+#album-main .container{
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.gallery {
+  margin: 0px
+  border: none;
+  float: left;
+  width: 300px;
+  padding: 5px;
+  height: 300px;
+  position: relative;
+}
+
+.album-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery img{
+  width: 100%;
+  height: 300px;
+  padding: 0px;
+  position: relative;
+  max-width: 300px;
+  display: block;
+}
+
+.desc {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 84%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-family: Verdana
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  @font-face{ font-family: Gotham; src: url('./Assets/Fonts/gotham_book_regular.otf');}
+}
+
+.gallery:hover .desc {
+  opacity: 1;
+}
+
+#shopping-basket .container{
+  width:90%;
+  padding:5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #26262626;
+  color: black;
+  font-family: Verdana
+  font-size: 20px;
+}
+
+#shop-main{
+  max-width: 3000px;
+  margin: auto;
+  overflow: auto;
+}
+
+#shop-main .container{
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.gallery {
+  margin: 0px
+  border: none;
+  float: left;
+  width: 300px;
+  padding: 5px;
+  height: 300px;
+  position: relative;
+}
+
+.shop-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery img{
+  width: 100%;
+  height: 300px;
+  padding: 0px;
+  position: relative;
+  max-width: 300px;
+  display: block;
+}
+
+.desc {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 300px%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-family: Verdana
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery:hover .desc {
+  opacity: 1;
+}
+
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Tours */
+ul#us-leg li{
+  float: left;
+  list-style: none;
+  padding:5px;
+  border: #cccccc solid 1px;
+  margin-bottom:10px;
+  background:#e6e6e6;
+  width: 400px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#262626;
+  text-align: center;
+}
+
+#augmented-reality .container{
+  width: 700px;
+  height: auto;
+  padding: 50px;
+  position: relative;
+  max-width: 2000px;
+  display: block;
+}
+
+
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #slideshow h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
